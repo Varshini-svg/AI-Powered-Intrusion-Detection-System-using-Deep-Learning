@@ -5,8 +5,5 @@ This project aims to protect from cyber security risks and enhance network secur
 DataSet Code - path to download dataset
 
 import kagglehub
-
-# Download latest version
 path = kagglehub.dataset_download("mrwellsdavid/unsw-nb15")
-
 print("Path to dataset files:", path)
